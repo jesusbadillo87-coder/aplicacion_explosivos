@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Guía Operativa</title>
+    <meta name="theme-color" content="#121212">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header App -->
+    <header id="app-header">
+        <button id="back-btn" class="hidden" aria-label="Volver"><i class="fa-solid fa-chevron-left"></i></button>
+        <h1 id="header-title">Inicio</h1>
+        <button id="install-btn" class="hidden" aria-label="Instalar App"><i class="fa-solid fa-download"></i></button>
+        <button id="settings-btn" aria-label="Configuración"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+    </header>
+
+    <!-- MAIN HOME VIEW -->
+    <main id="home-view" class="view active-view">
+        <div class="welcome-banner">
+            <h2>Manual de Referencia</h2>
+            <p>Protocolos de Seguridad y Manejo</p>
+        </div>
+
+        <h3 class="section-title">Categorías Operativas</h3>
+        <!-- Menu of 6 items -->
+        <div class="grid-menu" id="categories-grid">
+            <!-- Injected via JavaScript -->
+        </div>
+
+        <h3 class="section-title">Centro de Aprendizaje</h3>
+        <div class="action-cards">
+            <div class="action-card eval-card" id="btn-evaluacion">
+                <div class="card-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+                <div class="card-content">
+                    <h4>Evaluación</h4>
+                    <p>Pon a prueba tus conocimientos</p>
+                </div>
+                <i class="fa-solid fa-arrow-right chevron"></i>
+            </div>
+            <div class="action-card resources-card" id="btn-recursos">
+                <div class="card-icon"><i class="fa-solid fa-book-journal-whills"></i></div>
+                <div class="card-content">
+                    <h4>Recursos Adicionales</h4>
+                    <p>Manuales, GIFs y Videos</p>
+                </div>
+                <i class="fa-solid fa-arrow-right chevron"></i>
+            </div>
+        </div>
+    </main>
+
+    <!-- CATEGORY DETAILS VIEW -->
+    <main id="category-view" class="view">
+        <div class="category-header">
+            <div class="category-image-placeholder" id="cat-img"></div>
+            <h2 id="cat-title">Título Categoría</h2>
+        </div>
+
+        <!-- Tabs for the 4 sections -->
+        <div class="tabs-container">
+            <button class="tab-btn active" data-target="tab-identificacion">Identificación</button>
+            <button class="tab-btn" data-target="tab-destruccion">Destrucción</button>
+            <button class="tab-btn" data-target="tab-seguridad">Seguridad</button>
+            <button class="tab-btn" data-target="tab-residuos">Manejo Residuos</button>
+        </div>
+
+        <div class="tab-content-container">
+            <div id="tab-identificacion" class="tab-pane active">
+                <h3>Identificación</h3>
+                <p>Información para la correcta identificación y características físicas.</p>
+                <!-- Placeholder for images/content -->
+                <div class="placeholder-box"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <div id="tab-destruccion" class="tab-pane">
+                <h3>Procedimiento de Destrucción</h3>
+                <p>Pasos secuenciales y protocolos aprobados para la destrucción segura.</p>
+                <ul class="stepper">
+                    <li>Paso 1: Preparación de zona</li>
+                    <li>Paso 2: Colocación de cargas</li>
+                    <li>Paso 3: Detonación controlada</li>
+                </ul>
+            </div>
+            <div id="tab-seguridad" class="tab-pane">
+                <h3>Medidas y Equipo de Seguridad</h3>
+                <p>Equipo de protección personal (EPP) requerido y perímetros de seguridad recomendados.</p>
+                <div class="badges">
+                    <span class="badge"><i class="fa-solid fa-helmet-safety"></i> Casco</span>
+                    <span class="badge"><i class="fa-solid fa-glasses"></i> Gafas</span>
+                    <span class="badge"><i class="fa-solid fa-vest"></i> Chaleco Antifragmentos</span>
+                </div>
+            </div>
+            <div id="tab-residuos" class="tab-pane">
+                <h3>Manejo de Residuos</h3>
+                <p>Procedimientos post-operación para limpieza y disposición de material remanente o inerte.</p>
+                <div class="placeholder-box warning"><i class="fa-solid fa-recycle"></i></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- EVALUATION VIEW -->
+    <main id="evaluacion-view" class="view">
+        <div class="eval-container" id="quiz-start-screen">
+            <div class="eval-icon"><i class="fa-solid fa-list-check"></i></div>
+            <h2>Módulo de Evaluación</h2>
+            <p>Se generará un examen de 10 preguntas aleatorias para poner a prueba tus conocimientos sobre los protocolos de seguridad operativos.</p>
+            <button class="primary-btn" id="start-quiz-btn" style="margin-top: 20px;">Iniciar Examen</button>
+            
+        </div>
+
+        <div class="eval-container" id="quiz-active-screen" style="display: none; text-align: left;">
+            <div id="quiz-progress" style="color: var(--primary); font-weight: bold; margin-bottom: 15px;">Pregunta 1 de 10</div>
+            <h3 id="quiz-question-text" style="margin-bottom: 25px; line-height: 1.4;"></h3>
+            
+            <div id="quiz-options" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 30px;">
+                <!-- Opciones inyectadas por JS -->
+            </div>
+            
+            <div style="display: flex; justify-content: space-between;">
+                <button id="quiz-prev-btn" class="tab-btn" style="padding: 10px 20px;">Anterior</button>
+                <button id="quiz-next-btn" class="tab-btn" style="padding: 10px 20px; background: var(--surface-light);">Siguiente</button>
+            </div>
+        </div>
+
+        <div class="eval-container" id="quiz-results-screen" style="display: none;">
+            <h2 id="quiz-result-title" style="margin-bottom: 15px;"></h2>
+            <p id="quiz-result-text" style="font-size: 1.1rem; margin-bottom: 30px;"></p>
+            <button class="primary-btn" id="retry-quiz-btn">Reintentar Examen</button>
+        </div>
+    </main>
+
+    <!-- RESOURCES VIEW -->
+    <main id="recursos-view" class="view">
+        <div class="resources-container">
+            <h3>Material de Apoyo</h3>
+
+            <div class="resource-group">
+                <h4><i class="fa-solid fa-file-pdf"></i> Manuales Técnicos</h4>
+                <a href="LFAFE - copia_compressed.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">LFAFE (Copia)</a>
+                <a href="Manual de Aspectos Técnicos del SErvicio de Materiales de Guerra_compressed.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Manual de Aspectos Técnicos S.M.G.</a>
+                <a href="PROCEDIMIENTO DEST. PIROTECNIA_compressed (1).pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Proc. Destrucción Pirotecnia</a>
+                <a href="PSO DESTRUCCION A.P._compressed.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">PSO Destrucción A.P.</a>
+            </div>
+
+            <div class="resource-group">
+                <h4><i class="fa-solid fa-file-pdf"></i> Presentaciones PDF</h4>
+                <a href="Metodos-de-Destruccion-de-Material-Pirotecnico.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Métodos de Destrucción</a>
+                <a href="Organizacion-de-la-Celula-de-Destruccion.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Organización de la Célula</a>
+                <a href="Riesgos-del-Material-Pirotecnico.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Riesgos del Material</a>
+                <a href="Seguridad-en-el-Manejo-del-Material-y-Zona-de-Destruccion.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Seguridad en el Manejo</a>
+                <a href="Vestuario, Equipo y Herramienta de Seguridad.pdf" target="_blank" class="resource-item" style="text-decoration:none; color:inherit;">Vestuario y Equipo</a>
+            </div>
+
+            <div class="resource-group">
+                <h4><i class="fa-solid fa-video"></i> Videos Demostrativos</h4>
+                <div style="margin-bottom: 15px; max-width: 300px; margin-left: auto; margin-right: auto; border-radius: 12px; overflow: hidden; border: 1px solid var(--border); background: var(--surface);">
+                    <video controls style="width: 100%; max-height: 200px; display: block; background: #000; object-fit: contain;" preload="metadata">
+                        <source src="destruccion_correcta.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div style="padding: 12px 16px; font-size: 0.95rem; font-weight: 500; text-align: center;">
+                        <i class="fa-solid fa-circle-play" style="color: #3b82f6; margin-right: 8px;"></i> Video 1: Destrucción Correcta
+                    </div>
+                </div>
+                <div style="margin-bottom: 15px; max-width: 300px; margin-left: auto; margin-right: auto; border-radius: 12px; overflow: hidden; border: 1px solid var(--border); background: var(--surface);">
+                    <video controls style="width: 100%; max-height: 200px; display: block; background: #000; object-fit: contain;" preload="metadata">
+                        <source src="accidente_explosivo.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div style="padding: 12px 16px; font-size: 0.95rem; font-weight: 500; text-align: center;">
+                        <i class="fa-solid fa-circle-play" style="color: #ef4444; margin-right: 8px;"></i> Video 2: Prevención de Accidentes
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="quiz.js"></script>
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('SW Registrado', reg))
+                    .catch(err => console.log('Error registro SW', err));
+            });
+        }
+    </script>
+</body>
+
+</html>

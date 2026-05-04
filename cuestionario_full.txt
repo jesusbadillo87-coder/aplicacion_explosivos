@@ -1,0 +1,206 @@
+﻿INSTRUCCIONES: Seleccione la respuesta correcta para cada una de las siguientes interrogantes.
+Cuestionario Completo: Operaciones de Destrucción de Material Pirotécnico
+I. Riesgos del Material Pirotécnico
+1. ¿Por qué el manejo de material pirotécnico representa un riesgo inherente?
+a) Por el costo de los insumos químicos.
+b) Por la naturaleza y propiedades de las sustancias y su factibilidad de iniciación accidental.
+c) Debido a la falta de transporte adecuado.
+d) Por el ruido que generan al ser almacenados.
+2. ¿Qué requisitos son necesarios para reducir los accidentes en el manejo de pirotecnia?
+a) Rapidez y fuerza física.
+b) Conocimientos, experiencia y responsabilidad.
+c) Solo equipo de protección personal.
+d) Herramientas de metal de alta resistencia.
+3. ¿Cuál de las siguientes es una forma de iniciación accidental?
+a) Por exposición al vacío.
+b) Por fuego, chispa o agua.
+c) Por ondas de radio de baja frecuencia.
+d) Por contacto con madera seca.
+4. ¿Qué otros factores, además del fuego y chispa, pueden iniciar un artificio?
+a) Presión atmosférica y gravedad.
+b) Fricción, choque, calor y electricidad estática.
+c) Luz artificial y sonido.
+d) Por el simple paso del tiempo.
+5. ¿Qué característica definen a los oxidantes (ej. nitratos, cloratos)?
+a) Son liberadores de oxígeno.
+b) Son materiales altamente combustibles.
+c) Son resistentes al agua.
+d) Son gases inertes.
+6. ¿Qué ocurre al interactuar oxidantes con ácidos inorgánicos (sulfúrico o nítrico)?
+a) Se neutralizan inmediatamente.
+b) Se generan reacciones violentas.
+c) No ocurre ninguna reacción.
+d) Se solidifican.
+7. ¿Qué es más probable que generen los metales en polvo al mezclarse con agua?
+a) Reducción de temperatura.
+b) Acumulación de calor y riesgo de explosión.
+c) Evitan la humedad.
+d) Nada, son estables.
+8. ¿Cuál es el objetivo primordial de conocer los riesgos del material?
+a) Aumentar la velocidad de la tarea.
+b) Reducir la posibilidad de accidentes y preservar la integridad.
+c) Eliminar el EPP.
+d) Evitar el uso de seguridad.
+9. ¿Qué tipo de daños producen los accidentes con pirotecnia?
+a) Solo daños a la vegetación.
+b) Daños humanos y materiales.
+c) Retrasos administrativos.
+d) Pérdida de documentos.
+10. ¿En qué fase es crítica la presencia de impurezas en el material?
+a) Informe final.
+b) Manipulación.
+c) Compra.
+d) Pase de lista.
+II. Seguridad, Vestuario y Equipo
+11. ¿Qué vestuario es obligatorio para la destrucción?
+a) Uniforme de fatiga de algodón.
+b) Uniforme o ropa retardante a la flama.
+c) Traje NBQ.
+d) Ropa civil sintética.
+tgoglest
+a) Vidrio templado.
+b) Plástico acrílico.
+c) Policarbonato.
+d) Cristal blindado.
+13. ¿Qué guantes usar para mantener sensibilidad al manejar el material?
+a) Carnaza gruesa.
+b) Guantes de ternera (suaves).
+c) Látex desechable.
+d) Asbesto térmico.
+14. ¿Qué extintor debe estar presente en el área?
+a) Agua a presión.
+b) CO2.
+c) Polvo Químico Seco (PQS) ABC.
+d) Espuma mecánica.
+15. ¿Qué longitud debe tener el cable eléctrico para encendido a distancia?
+a) 50 metros.
+b) 100 metros.
+c) 200 metros.
+d) 500 metros.
+16. ¿Qué se debe desechar de una mecha lenta antes de su uso?
+a) 50 cm.
+b) El recubrimiento exterior.
+c) Los primeros 10 cm del extremo.
+d) No se debe desechar nada.
+17. ¿Cuál es la importancia del casco con visera?
+a) Identificar el rango.
+b) Proteger cabeza y rostro de proyecciones.
+c) Sostener la lámpara.
+d) Estética.
+18. ¿Cómo debe transportarse el equipo técnico (explosor/cables)?
+a) Junto a la pólvora.
+b) Por separado y bajo custodia técnica.
+c) En la parte trasera de cualquier vehículo.
+d) En manos de los cargadores.
+19. ¿Qué se recomienda para acciones preventivas?
+a) Improvisar en el terreno.
+b) Estudiar medidas de seguridad y observar el material.
+c) Delegar la responsabilidad.
+d) Ignorar el manual en urgencias.
+20. ¿Qué papel juega la lógica en las medidas de seguridad?
+a) Es irrelevante.
+b) Base de consideraciones simples para evitar riesgos obvios.
+c) Sustituye el conocimiento técnico.
+d) Solo aplica en servicios técnicos.
+III. Técnicas y Métodos de Destrucción
+21. ¿Quién determina el método de destrucción tras clasificar el material?
+tJefet
+tJefet
+tJefet
+d) Oficial de Sanidad.
+t¿Para qué categorías es aplicable el Método No.tUno (por fuego)?
+a) Cat III únicamente.
+b) Cat I y II.
+c) Pólvora a granel.
+d) Material metálico.
+23. ¿Cuál es la cantidad máxima de material de una especie por cargador en Método Uno?
+a) 5 kg.
+b) 10 kg.
+c) 15 kg.
+d) 25 kg.
+24. ¿Qué espesor máximo debe tener el tendido en la jaula?
+a) 5 cm.
+b) 10 cm.
+c) 15 cm.
+d) 20 cm.
+25. ¿Qué herramienta se usa para medir el calor residual en el terreno?
+a) Sensor de humedad.
+b) Termómetro infrarrojo.
+c) Termómetro de mercurio.
+d) Visualmente.
+26. ¿Cuál es el tiempo de espera tras finalizar efectos para verificar el área?
+a) 5 min.
+b) 15 min.
+c) 30 min.
+d) 1 hora.
+27. ¿Qué debe hacer si al contacto con agua hay gases/efervescencia?
+a) Continuar vertiendo.
+b) Desechar el método y usar otro seguro.
+c) Agregar agua caliente.
+d) Tapar herméticamente.
+28. ¿Cuántas piezas máximo se permiten en tendidos de Cat III?
+a) 1 pieza.
+b) 5 piezas.
+c) 10 piezas.
+d) 50 piezas.
+29. ¿Qué se hace con los sólidos resultantes del filtrado en método de agua?
+a) Se desechan en basura común.
+b) Se orean y destruyen por fuego.
+c) Se reutilizan.
+d) Se almacenan.
+30. ¿Qué dispositivo de seguridad debe usar el personal antes de manejar material?
+a) Guantes de asbesto.
+b) Barra de descarga estática.
+c) Pantalla facial de acero.
+d) Detector de metal.
+IV. Organización y Zona de Destrucción
+31. ¿A qué clase de sustancias peligrosas pertenecen las pirotécnicas (ONU)?
+a) Clase 3 (Inflamables).
+b) Clase 1 (Explosivos).
+c) Clase 5 (Oxidantes).
+d) Clase 9 (Misceláneos).
+32. ¿Quién es el mando superior de la Célula de Destrucción?
+a) Oficial de Materiales de Guerra.
+b) Oficial de Sanidad.
+c) Oficial de Arma.
+d) Tropa de Transmisiones.
+33. ¿Cuál es la distancia mínima de áreas pobladas para el Punto de Recepción?
+a) 100 m.
+b) 200 m.
+c) 300 m.
+d) 500 m.
+34. ¿Qué integra el Grupo de Apoyo para el resguardo perimetral?
+a) Escuadra de Materiales de Guerra.
+b) Pelotón de fusileros.
+c) Equipo de sanidad.
+d) Célula de transmisiones.
+35. ¿Cuál es la distancia mínima entre Área de Destrucción y Punto de Recepción?
+a) 100 m.
+b) 200 m.
+c) 300 m.
+d) 500 m.
+36. ¿Sobre qué elementos se debe estibar el material obligatoriamente?
+a) Láminas de metal.
+b) Pasto seco.
+c) Cajas o polines de madera.
+d) Vehículos.
+37. ¿Bajo qué condición el área debe estar libre de vegetación?
+a) Siempre (pasto, ramas, material combustible).
+b) Solo si llueve.
+c) Solo si hay personal civil.
+d) Solo en la noche.
+tJefet
+a) Manual químico.
+b) La fatiga del personal.
+c) Inventario de armamento.
+d) Plan de vuelo.
+39. ¿Con qué autoridad coordinar para legalizar la destrucción?
+tPresidentet
+b) Autoridad ministerial o judicial.
+c) Dueño del terreno.
+d) Cruz Roja.
+40. ¿Cuál es el objetivo primordial de la organización de estas funciones?
+a) Reducir el tiempo a la mitad.
+b) Garantizar la seguridad del personal y éxito técnico.
+c) Evitar uniformes retardantes.
+d) Cumplir requisitos administrativos de la tesis.

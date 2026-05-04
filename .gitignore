@@ -1,0 +1,13 @@
+.gemini/
+.git/
+node_modules/
+temp_docx/
+extracted_docx/
+extracted_media_probe/
+temp_media.zip
+docx_dump.txt
+doc_text.txt
+doc2_text.txt
+cuestionario.zip
+*.pptx
+*.docx
