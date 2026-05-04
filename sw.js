@@ -1,4 +1,4 @@
-const CACHE_NAME = 'explosivos-pwa-v2';
+const CACHE_NAME = 'explosivos-pwa-v3';
 const urlsToCache = [
   '/',
   '/index.html',
