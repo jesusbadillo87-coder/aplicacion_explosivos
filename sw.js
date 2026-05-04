@@ -1,11 +1,11 @@
-const CACHE_NAME = 'explosivos-pwa-v3';
+const CACHE_NAME = 'explosivos-pwa-v4';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/quiz.js',
-  '/manifest.json'
+  './',
+  './index.html',
+  './styles.css',
+  './app.js',
+  './quiz.js',
+  './manifest.json'
 ];
 
 self.addEventListener('install', event => {
