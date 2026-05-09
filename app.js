@@ -342,6 +342,10 @@ document.addEventListener("DOMContentLoaded", () => {
         showView(recView, "Recursos Adicionales", true);
     });
 
+    document.getElementById("btn-lens").addEventListener("click", () => {
+        window.open("https://lens.google.com/", "_blank");
+    });
+
     function openCategory(categoryObj) {
         // Actualizar título y placeholder
         document.getElementById("cat-title").textContent = categoryObj.name;
