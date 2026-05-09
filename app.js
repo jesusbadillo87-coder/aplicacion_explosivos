@@ -13,6 +13,15 @@ const categories = [
                     <li><b>Castillos, Toritos y Coronas:</b> Arquitectura basada en múltiples tubos unidos a un bastidor. Complejidad operativa muy alta por la sincronización de múltiples puntos. El riesgo principal es la reacción en cadena desincronizada.</li>
                     <li><b>Cohetones:</b> Cilíndricos para propulsión aérea vertical, estabilizados con una larga varilla de madera de 1.5 a 2 veces el largo del tubo. Divididos en sección de efectos (superior), separador, y propulsión inferior (50-60% del dispositivo).</li>
                 </ul>
+                <h4 style="margin-top: 20px; margin-bottom: 10px;"><i class="fa-solid fa-cubes"></i> Visualización 3D: Castillo</h4>
+                <model-viewer 
+                    src="castillo (1).glb" 
+                    alt="Modelo 3D de Castillo" 
+                    auto-rotate 
+                    camera-controls 
+                    autoplay 
+                    style="width: 100%; height: 300px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
+                </model-viewer>
                 <div class="placeholder-box" style="height:auto; padding:15px; margin-top:20px; font-size:0.9rem; text-align:left;">
                     <h4 style="margin-bottom:10px;"><i class="fa-solid fa-list-check"></i> Protocolo de Inspección en Campo</h4>
                     <ol style="margin-left: 20px;">
@@ -50,6 +59,15 @@ const categories = [
                     <li><strong>Olor a Químicos Fuerte:</strong> Una reacción de <i>auto-ignición</i> puede haberse auto-sostenido en el interior. Riesgo inminente de explosión.</li>
                     <li><strong>Alta Temperatura al Tacto:</strong> ¡NUNCA ESPERE! Si al acercarse la temperatura se siente por contacto de radiación, la ignición térmica tomará solo segundos. Evacúe de inmediato a 50 metros.</li>
                 </ul>
+                <h4 style="margin-top: 20px; margin-bottom: 10px;"><i class="fa-solid fa-cubes"></i> Visualización 3D: Toro de Colores</h4>
+                <model-viewer 
+                    src="colorful+bull+sculpture+3d+model.glb" 
+                    alt="Modelo 3D de Toro de Colores" 
+                    auto-rotate 
+                    camera-controls 
+                    autoplay 
+                    style="width: 100%; height: 300px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
+                </model-viewer>
             `,
             residuos: `
                 <h3>Manejo de Residuos Operativos</h3>
