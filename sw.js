@@ -1,11 +1,12 @@
-const CACHE_NAME = 'explosivos-pwa-v6';
+const CACHE_NAME = 'explosivos-pwa-v6.3';
 const urlsToCache = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './quiz.js',
-  './manifest.json'
+  './manifest.json',
+  './cuetones.jpeg'
 ];
 
 self.addEventListener('install', event => {

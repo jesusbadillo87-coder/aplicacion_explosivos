@@ -89,7 +89,7 @@ const categories = [
         content: {
             identificacion: `
                 <h3>Mecanismos Reaccionales y Colorimetría</h3>
-                <img src="img_identificacion_2.png" style="width:100%; max-height:220px; object-fit:cover; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Estructura Cilíndrica">
+                <img src="cuetones.jpeg" style="width:100%; max-height:220px; object-fit:cover; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Cuetones">
                 <p>Las mezclas de nivel III dependen de 4 pilares: un combustible (Carbón/Madera, Azufre o Metales reactivos), un oxidante (Nitratos, Percloratos, Cloratos), energía de iniciación térmica y sostén de reacción en cadena.</p>
                 <ul>
                     <li><b>Combustión Controlada:</b> Subsónica, sin excesiva presión (<10 atm).</li>
@@ -343,7 +343,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.getElementById("btn-lens").addEventListener("click", () => {
-        window.open("https://lens.google.com/", "_blank");
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        if (isAndroid) {
+            // Intent para abrir Google Lens con fallback a Play Store
+            const intentUrl = "intent://scan/#Intent;scheme=googlelens;package=com.google.ar.lens;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.google.ar.lens;end;";
+            window.location.href = intentUrl;
+        } else {
+            window.open("https://lens.google.com/", "_blank");
+        }
     });
 
     function openCategory(categoryObj) {
