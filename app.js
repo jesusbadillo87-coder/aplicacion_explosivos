@@ -6,7 +6,7 @@ const categories = [
         content: {
             identificacion: `
                 <h3>Identificación de Artificios Cat. III</h3>
-                <img src="area_de_destruccion.jpeg" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Área de Destrucción">
+                <img src="torito2.jpeg" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Área de Destrucción">
                 <p>Se identifican visualmente tres tipos principales de artificios:</p>
                 <ul>
                     <li><b>Bombas de Mortero (Crisantemos):</b> Forma esférica o semiesférica de cartón laminado (2-4 mm de espesor). Tienen una costura ecuatorial visible y mecha en la parte superior. Generan las presiones más altas (25-40 atmósferas) y fragmentación letal (radio >70m para 8").</li>
@@ -45,7 +45,7 @@ const categories = [
             `,
             seguridad: `
                 <h3>Medidas y Equipo de Seguridad</h3>
-                <img src="torito2.jpeg" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Medidas de seguridad Torito">
+                <img src="area_de_destruccion.jpeg" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Medidas de seguridad Torito">
                 <p>La evaluación constante del envase de cartón o polímero es obligatoria. Cualquier signo de deterioro cambia de inmediato los protocolos manuales a evacuación.</p>
                 <div class="badges" style="margin-bottom:15px;">
                     <span class="badge"><i class="fa-solid fa-triangle-exclamation"></i> Cero Sintéticos</span>
