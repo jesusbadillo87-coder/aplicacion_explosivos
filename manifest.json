@@ -1,9 +1,9 @@
 {
-  "name": "Guía Operativa - Explosivos",
-  "short_name": "Guía Explosivos",
+  "name": "Guia Operativa - Explosivos",
+  "short_name": "Guia Explosivos",
   "description": "Manual de Referencia para Protocolos de Seguridad y Manejo de Explosivos",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/aplicacion_explosivos/",
+  "scope": "/aplicacion_explosivos/",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#121212",
@@ -13,7 +13,7 @@
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
       "src": "icon-192.png",
