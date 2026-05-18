@@ -6,7 +6,7 @@ const categories = [
         content: {
             identificacion: `
                 <h3>Identificación de Artificios Cat. III</h3>
-                <img src="torito2.jpeg" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Área de Destrucción">
+                <img src="Torito2.jpeg" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; border:1px solid var(--border);" alt="Área de Destrucción">
                 <p>Se identifican visualmente tres tipos principales de artificios:</p>
                 <ul>
                     <li><b>Bombas de Mortero (Crisantemos):</b> Forma esférica o semiesférica de cartón laminado (2-4 mm de espesor). Tienen una costura ecuatorial visible y mecha en la parte superior. Generan las presiones más altas (25-40 atmósferas) y fragmentación letal (radio >70m para 8").</li>
