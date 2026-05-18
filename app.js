@@ -13,15 +13,6 @@ const categories = [
                     <li><b>Castillos, Toritos y Coronas:</b> Arquitectura basada en múltiples tubos unidos a un bastidor. Complejidad operativa muy alta por la sincronización de múltiples puntos. El riesgo principal es la reacción en cadena desincronizada.</li>
                     <li><b>Cohetones:</b> Cilíndricos para propulsión aérea vertical, estabilizados con una larga varilla de madera de 1.5 a 2 veces el largo del tubo. Divididos en sección de efectos (superior), separador, y propulsión inferior (50-60% del dispositivo).</li>
                 </ul>
-                <h4 style="margin-top: 20px; margin-bottom: 10px;"><i class="fa-solid fa-cubes"></i> Visualización 3D: Castillo</h4>
-                <model-viewer 
-                    src="castillo (1).glb" 
-                    alt="Modelo 3D de Castillo" 
-                    auto-rotate 
-                    camera-controls 
-                    autoplay 
-                    style="width: 100%; height: 300px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
-                </model-viewer>
                 <div class="placeholder-box" style="height:auto; padding:15px; margin-top:20px; font-size:0.9rem; text-align:left;">
                     <h4 style="margin-bottom:10px;"><i class="fa-solid fa-list-check"></i> Protocolo de Inspección en Campo</h4>
                     <ol style="margin-left: 20px;">
@@ -59,15 +50,6 @@ const categories = [
                     <li><strong>Olor a Químicos Fuerte:</strong> Una reacción de <i>auto-ignición</i> puede haberse auto-sostenido en el interior. Riesgo inminente de explosión.</li>
                     <li><strong>Alta Temperatura al Tacto:</strong> ¡NUNCA ESPERE! Si al acercarse la temperatura se siente por contacto de radiación, la ignición térmica tomará solo segundos. Evacúe de inmediato a 50 metros.</li>
                 </ul>
-                <h4 style="margin-top: 20px; margin-bottom: 10px;"><i class="fa-solid fa-cubes"></i> Visualización 3D: Toro de Colores</h4>
-                <model-viewer 
-                    src="colorful+bull+sculpture+3d+model.glb" 
-                    alt="Modelo 3D de Toro de Colores" 
-                    auto-rotate 
-                    camera-controls 
-                    autoplay 
-                    style="width: 100%; height: 300px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
-                </model-viewer>
             `,
             residuos: `
                 <h3>Manejo de Residuos Operativos</h3>
@@ -208,27 +190,6 @@ const categories = [
                     <li><strong>Orientación en el tendido:</strong> Al colocar los cuerpos de los cuetones sobre la cama de destrucción, oriéntalos de modo que, en caso de activarse, apunten hacia las paredes del foso y no hacia la zona de los operarios o el parapeto.</li>
                     <li><strong>Control de la mecha externa:</strong> Asegúrate de que la mecha de encendido original del cohete quede impregnada de diesel o sea retirada, para evitar que una chispa errática inicie el ciclo de vuelo normal del artificio.</li>
                 </ul>
-
-                <h4 style="margin-top: 20px; margin-bottom: 10px;"><i class="fa-solid fa-cubes"></i> Modelos 3D Interactivos</h4>
-                <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px;">
-                    <model-viewer 
-                        src="crisantemo_chi.glb" 
-                        alt="Modelo 3D de Crisantemo" 
-                        auto-rotate 
-                        camera-controls 
-                        autoplay 
-                        style="width: 100%; height: 250px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
-                    </model-viewer>
-                    
-                    <model-viewer 
-                        src="crisantemo_seccionado.glb" 
-                        alt="Modelo 3D de Crisantemo Seccionado" 
-                        auto-rotate 
-                        camera-controls 
-                        autoplay 
-                        style="width: 100%; height: 250px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
-                    </model-viewer>
-                </div>
             `
         }
     },
@@ -311,8 +272,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const catView = document.getElementById("category-view");
     const evalView = document.getElementById("evaluacion-view");
     const recView = document.getElementById("recursos-view");
+    const modView = document.getElementById("modelos-view");
     
-    const views = [homeView, catView, evalView, recView];
+    const views = [homeView, catView, evalView, recView, modView];
     
     const headerTitle = document.getElementById("header-title");
     const backBtn = document.getElementById("back-btn");
@@ -340,6 +302,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("btn-recursos").addEventListener("click", () => {
         showView(recView, "Recursos Adicionales", true);
+    });
+
+    document.getElementById("btn-3d").addEventListener("click", () => {
+        showView(modView, "Modelos 3D", true);
     });
 
     document.getElementById("btn-lens").addEventListener("click", () => {

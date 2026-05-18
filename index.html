@@ -67,6 +67,14 @@
                 </div>
                 <i class="fa-solid fa-arrow-right chevron"></i>
             </div>
+            <div class="action-card 3d-card" id="btn-3d">
+                <div class="card-icon"><i class="fa-solid fa-cubes"></i></div>
+                <div class="card-content">
+                    <h4>Modelos 3D</h4>
+                    <p>Visualización interactiva de artificios</p>
+                </div>
+                <i class="fa-solid fa-arrow-right chevron"></i>
+            </div>
         </div>
     </main>
 
@@ -194,6 +202,60 @@
             </div>
 
 
+        </div>
+    </main>
+
+    <!-- MODELOS 3D VIEW -->
+    <main id="modelos-view" class="view">
+        <div class="resources-container">
+            <h3>Centro de Modelado 3D</h3>
+            <p style="margin-bottom: 20px; font-size: 0.95rem; color: var(--text-secondary);">Interactúa con los modelos arrastrándolos para rotar y usando dos dedos o la rueda del ratón para hacer zoom.</p>
+
+            <div class="resource-group" style="background: var(--surface); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
+                <h4><i class="fa-solid fa-cube"></i> Castillo</h4>
+                <model-viewer 
+                    src="castillo (1).glb" 
+                    alt="Modelo 3D de Castillo" 
+                    auto-rotate 
+                    camera-controls 
+                    autoplay 
+                    style="width: 100%; height: 300px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border); margin-top: 10px;">
+                </model-viewer>
+            </div>
+
+            <div class="resource-group" style="background: var(--surface); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
+                <h4><i class="fa-solid fa-cube"></i> Toro de Colores</h4>
+                <model-viewer 
+                    src="colorful+bull+sculpture+3d+model.glb" 
+                    alt="Modelo 3D de Toro de Colores" 
+                    auto-rotate 
+                    camera-controls 
+                    autoplay 
+                    style="width: 100%; height: 300px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border); margin-top: 10px;">
+                </model-viewer>
+            </div>
+
+            <div class="resource-group" style="background: var(--surface); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
+                <h4><i class="fa-solid fa-cube"></i> Crisantemos (Modelos Seccionados)</h4>
+                <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 10px;">
+                    <model-viewer 
+                        src="crisantemo_chi.glb" 
+                        alt="Modelo 3D de Crisantemo" 
+                        auto-rotate 
+                        camera-controls 
+                        autoplay 
+                        style="width: 100%; height: 250px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
+                    </model-viewer>
+                    <model-viewer 
+                        src="crisantemo_seccionado.glb" 
+                        alt="Modelo 3D de Crisantemo Seccionado" 
+                        auto-rotate 
+                        camera-controls 
+                        autoplay 
+                        style="width: 100%; height: 250px; background-color: #1a1a1a; border-radius: 12px; border: 1px solid var(--border);">
+                    </model-viewer>
+                </div>
+            </div>
         </div>
     </main>
 
